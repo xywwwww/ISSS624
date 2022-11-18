@@ -9,7 +9,7 @@
   {
     "objectID": "Hands-on_Ex1/Hands-on_Ex1.html",
     "href": "Hands-on_Ex1/Hands-on_Ex1.html",
-    "title": "Hands-on Excercise 1",
+    "title": "Hands-on Excercise 1: Geospatial Data Wrangling with R",
     "section": "",
     "text": "In this hands-on exercise, I learn how to import and wrangle geospatial data using appropriate R packages\n\n\nThe code chunk below install and load sf and tidyverse packages into R environment\n\npacman::p_load(sf,tidyverse)\n\n\n\n\n\n\n\nmpsz = st_read(dsn = \"data/geospatial\", \n               layer = \"MP14_SUBZONE_WEB_PL\")\n\nReading layer `MP14_SUBZONE_WEB_PL' from data source \n  `C:\\Users\\xinyu\\ISSS624\\Hands-on_Ex1\\data\\geospatial' using driver `ESRI Shapefile'\nSimple feature collection with 323 features and 15 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 2667.538 ymin: 15748.72 xmax: 56396.44 ymax: 50256.33\nProjected CRS: SVY21"
   },
